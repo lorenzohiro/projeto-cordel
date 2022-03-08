@@ -24,8 +24,24 @@ header {
 header > h1 {
     font-family: var(--fonte-titulo);
     font-size: 5em;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+header > h1 > strong {
+    font-size: 1.4em;
 }
 
 header > p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header > p > a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header > p > a:hover {
+    text-decoration: underline;
 }
