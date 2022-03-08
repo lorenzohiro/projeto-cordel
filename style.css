@@ -45,3 +45,42 @@ header > p > a {
 header > p > a:hover {
     text-decoration: underline;
 }
+
+main {
+    font-family: var(--fonte-padrao);
+    padding: 30px;
+}
+
+main p {
+    margin: 20px 0px 20px 0px;
+    font-size: 2em;
+}
+
+#fundo1 {
+    background-image: url("imagens/background001.jpg");
+}
+
+div.fundo {
+    background-color: rgba(0, 0, 0, 0);
+    background-size: cover;
+}
+
+footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    background-color: black;
+}
+
+footer > p {
+    text-align: center;
+    color: white;
+}
+
+footer > p > a {
+    color: white;
+    text-decoration: none;
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
+}
