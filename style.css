@@ -60,9 +60,10 @@ main p {
     background-image: url("imagens/background001.jpg");
 }
 
-div.fundo {
+.fundo {
     background-color: rgba(0, 0, 0, 0);
     background-size: cover;
+    background-position: center center;
 }
 
 footer {
