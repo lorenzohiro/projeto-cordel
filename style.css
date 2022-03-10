@@ -51,17 +51,23 @@ footer a:hover {
 
 section {
   font-family: var(--fonte-padrao);
-  padding-top: 10vh;
-  padding-bottom: 10vh;
+  font-size: 1.5em;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
   line-height: 2em;
   padding-left: 30px;
 }
 
-section.fundo {
+section.imagem {
   background-color: rgba(0, 0, 0, 0);
   background-size: cover;
   background-position: center center;
   color: white;
+}
+
+section.imagem > p {
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.404);
 }
 
 #fundo1 {
