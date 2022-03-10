@@ -63,6 +63,7 @@ section.imagem {
   background-size: cover;
   background-position: center center;
   color: white;
+  transform: translate(-15px);
 }
 
 section.imagem > p {
